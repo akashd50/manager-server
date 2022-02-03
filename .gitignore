@@ -2,3 +2,4 @@
 npm-degug.log
 .DS_Store
 /*.env
+/dist
