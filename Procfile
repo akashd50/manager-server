@@ -1,1 +1,1 @@
-index: node index.ts
+index: npm run start
