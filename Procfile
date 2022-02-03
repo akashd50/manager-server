@@ -1,1 +1,1 @@
-app: node app.js
+index: node index.ts
