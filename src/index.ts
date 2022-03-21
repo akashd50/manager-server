@@ -10,6 +10,5 @@ app.get('/', (req: Request, res: Response) => {
 
 const newPort = process.env.PORT || port;
 app.listen(newPort, () => {
-  // tslint:disable-next-line:no-console
   console.log(`Express Server listening on port ${newPort}`)
 })
