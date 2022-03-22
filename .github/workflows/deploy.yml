@@ -15,14 +15,14 @@ jobs:
 
       - name: Install dependencies
         working-directory: .
-        run: yarn install
+        run: npm install
 
       - name: Build
         working-directory: .
-        run: yarn build
+        run: npm run build
 
       - name: Deploy frontend 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages
-          folder: dist/spa
+          folder: dist
