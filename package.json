@@ -11,7 +11,7 @@
     "watch-ts": "tsc -w"
   },
   "engines": {
-    "node": "16.13.0"
+    "node": ">=16.13.0"
   },
   "author": "",
   "license": "ISC",
