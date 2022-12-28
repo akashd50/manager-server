@@ -5,7 +5,7 @@ services:
     build: .
     container_name: password-manager-server
     ports:
-      - "80:80"
+      - "443:80"
     volumes:
       - .:/usr/app
     restart: always
